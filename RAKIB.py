@@ -375,7 +375,7 @@ def crack(uid, pww, total_idz):
 
             if "session_key" in po:
 
-                print(f"\r\033[1;92m [XYZ-OK] {uid} | {pw}")
+                print(f"\r\033[1;92m [Rakib-OK] {uid} | {pw}")
 
                 open("/sdcard/Rakib/RANDOM_OK.txt", "a").write(f"{uid}|{pw}\n")
 
